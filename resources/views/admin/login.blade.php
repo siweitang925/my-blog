@@ -35,7 +35,7 @@
 					</li>
 				</ul>
 			</form>
-			<p><a href="#">返回首页</a> &copy; 2016 Powered by 四味糖</p>
+			<p><a href="{{url('/')}}">返回首页</a> &copy; 2016 Powered by 四味糖</p>
 		</div>
 	</div>
 </body>
