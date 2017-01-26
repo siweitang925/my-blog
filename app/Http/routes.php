@@ -25,6 +25,8 @@ Route::group(['namespace'=>'Home'],function(){
 
 //显示后台登录界面及验证登录信息
 Route::any('admin/login', 'Admin\LoginController@login');
+//移动项目时刷新密码
+Route::any('admin/crypt', 'Admin\LoginController@crypt');
 
 //显示验证码
 Route::get('admin/code', 'Admin\LoginController@code');
