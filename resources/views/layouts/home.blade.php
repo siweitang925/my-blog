@@ -26,7 +26,7 @@
     </h3>
     <ul class="paih">
       @foreach($click as $c)
-      <li><a href="{{url('/art/'.$r->art_id)}}" title="{{$c->art_title}}" target="_blank">{{$c->art_title}}</a></li>
+      <li><a href="{{url('/art/'.$c->art_id)}}" title="{{$c->art_title}}" target="_blank">{{$c->art_title}}</a></li>
       @endforeach
     </ul>
 @show
